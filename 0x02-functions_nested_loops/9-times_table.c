@@ -21,7 +21,7 @@ void times_table(void)
 			outNum = x * y;
 			if (outNum > 9)
 			{
-				_putchar(((outNum /10) % 10) + '0');
+				_putchar(((outNum / 10) % 10) + '0');
 			}
 			else if (y > 0)
 			{
