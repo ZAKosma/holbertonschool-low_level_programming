@@ -5,6 +5,8 @@
 /**
 * _islower -prints _putchar using the defined _putchar from main.h
 *
+* @c: is a number that is passed
+*
 * Return: 0
 */
 int _islower(int c)
