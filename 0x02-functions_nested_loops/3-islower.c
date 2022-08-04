@@ -3,11 +3,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-* islower -prints _putchar using the defined _putchar from main.h
+* _islower -prints _putchar using the defined _putchar from main.h
 *
 * Return: 0
 */
-int islower(int c)
+int _islower(int c)
 {
 	/**
 	 *   Is lowercase
