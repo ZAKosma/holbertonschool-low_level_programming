@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-* main -prints _putchar using the defined _putchar from main.h
+* print_alphabet -prints _putchar using the defined _putchar from main.h
 *
 * Return: 0
 */
