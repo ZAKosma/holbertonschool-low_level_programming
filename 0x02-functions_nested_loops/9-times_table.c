@@ -23,7 +23,7 @@ void times_table(void)
 			{
 				_putchar(((outNum /10) % 10) + '0');
 			}
-			else
+			else if (y > 0)
 			{
 				_putchar(' ');
 			}
