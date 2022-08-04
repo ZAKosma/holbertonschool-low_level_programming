@@ -23,6 +23,10 @@ void times_table(void)
 			{
 				_putchar(((outNum /10) % 10) + '0');
 			}
+			else
+			{
+				_putchar(' ');
+			}
 			_putchar((outNum % 10) + '0');
 			if (y < 9)
 			{
