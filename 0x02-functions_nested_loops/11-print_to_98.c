@@ -38,7 +38,11 @@ void print_to_98(int n)
 			{
 				_putchar('-');
 			}
-			if (abs(i) > 10)
+			if (abs(i) > 99)
+			{
+				_putchar(((abs(i) / 100) % 10) + '0');
+			}
+			if (abs(i) > 9)
 			{
 				_putchar(((abs(i) / 10) % 10) + '0');
 			}
