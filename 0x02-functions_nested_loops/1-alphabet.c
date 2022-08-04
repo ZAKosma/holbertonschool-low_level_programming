@@ -12,7 +12,8 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		putchar(i + 97);
+		_putchar (i + 97);
 	}
+	_putchar (10);
 	return (0);
 }
