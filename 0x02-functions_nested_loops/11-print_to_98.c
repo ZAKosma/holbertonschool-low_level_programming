@@ -17,16 +17,16 @@ void print_to_98(int n)
 	{
 		for (i = n; i > 97; i--)
 		{
-			if(i > 99)
+			if (i > 99)
 			{
 				_putchar(((i / 100) % 10) + '0');
 			}
-		        _putchar(((i / 10) % 10) + '0');
+			_putchar(((i / 10) % 10) + '0');
 			_putchar((i % 10) + '0');
 			if (i > 98)
 			{
 				_putchar(',');
-                                _putchar(' ');
+				_putchar(' ');
 			}
 		}
 	}
