@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ * _isupper(int c) - returns the upperase character
+ * @c - is the number
+ * Return: uppercase character
+ */
+
+int largest_number(int a, int b, int c)
+{
+    int largest;
+
+    largest = a > b ? a : b;
+    largest = largest > c ? largest : c;
+
+    return (largest);
+}
