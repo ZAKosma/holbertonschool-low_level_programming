@@ -12,8 +12,8 @@ void print_numbers()
 
 	for(i = 0; i < 10; i++)
 	{
-		_putchar(i + offset);
+		_putchar (i + offset);
 	}
 
-	_putchar(10);
+	_putchar (10);
 }
