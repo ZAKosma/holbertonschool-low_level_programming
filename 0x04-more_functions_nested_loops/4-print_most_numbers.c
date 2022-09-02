@@ -5,7 +5,7 @@
  * Return: uppercase character
  */
 
-void print_numbers()
+void print_most_numbers()
 {
 	int i;
 	int offset = 48;
